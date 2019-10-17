@@ -11,6 +11,7 @@ $ python excelreader.py  /path/to/excel/file.xls
 ## Execute from PHP and wait for output
 
 ```
+<?php 
 $command = escapeshellcmd('python excelreader.py  /path/to/excel/file.xls 2>&1 &');
 $output = shell_exec($command);
 ```
