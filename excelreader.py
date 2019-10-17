@@ -3,7 +3,6 @@
 import os
 import sys
 import xlrd
-import csv
 import pandas as pd
 #import time
 import json
